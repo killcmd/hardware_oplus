@@ -207,7 +207,7 @@
         android:key="touchscreen"
         android:title="@string/touchscreen_title">
 
-        <Preference
+        <!--<Preference
             android:key="touchscreen_gestures"
             android:title="@string/touchscreen_gesture_settings_title"
             android:summary="@string/touchscreen_gesture_settings_summary"
@@ -215,7 +215,7 @@
             <intent android:action="android.intent.action.MAIN"
                     android:targetPackage="org.evolution.oplus.OPlusExtras"
                     android:targetClass="org.evolution.oplus.OPlusExtras.touch.TouchscreenGestureSettings" />
-        </Preference>
+        </Preference> -->
 
         <SwitchPreference
             android:key="game_mode"

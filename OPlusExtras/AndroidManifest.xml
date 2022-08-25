@@ -85,7 +85,7 @@
         </activity>
 
         <!-- Touch Gesture Settings Activity -->
-        <activity
+        <!--<activity
             android:name=".touch.TouchscreenGestureSettings"
             android:label="@string/touchscreen_gesture_settings_title"
             android:theme="@style/Theme.SubSettingsBase">
@@ -101,7 +101,7 @@
             android:exported="true"
             android:label="@string/touchscreen_gesture_settings_title"
             android:theme="@style/AppTheme.Transparent">
-        </activity>
+        </activity>-->
 
         <!-- Kcal Settings Activity -->
         <activity
