@@ -30,7 +30,10 @@
     <string name="notification_slider_for_rotation">Rotasi</string>
     <string name="notification_slider_for_ringer">Dering</string>
     <string name="notification_slider_for_notification_ringer">Notifikasi dan dering</string>
+    <string name="notification_slider_for_extradim">Ekstra Redup</string>
+    <string name="notification_slider_for_nightlight">Cahaya Malam</string>
     <string name="notification_slider_for_refresh">Kecepatan refresh</string>
+    <string name="notification_slider_for_colorspace">Ruang Warna</string>
     <string name="notification_slider_flashlight_off">Nonaktif</string>
     <string name="notification_slider_flashlight_on">Aktif</string>
     <string name="notification_slider_flashlight_blink">Berkedip</string>
@@ -44,9 +47,21 @@
     <string name="notification_slider_ringer_normal">Normal</string>
     <string name="notification_slider_ringer_vibrate">Getar</string>
     <string name="notification_slider_ringer_silent">Senyap</string>
+    <string name="notification_slider_extradim_off">Mati</string>
+    <string name="notification_slider_extradim_min">Min</string>
+    <string name="notification_slider_extradim_mid">Sedang</string>
+    <string name="notification_slider_extradim_max">Maks</string>
+    <string name="notification_slider_nightlight_off">Mati</string>
+    <string name="notification_slider_nightlight_min">Min</string>
+    <string name="notification_slider_nightlight_mid">Mid</string>
+    <string name="notification_slider_nightlight_max">Maks</string>
     <string name="notification_slider_refresh_auto">Otomatis</string>
     <string name="notification_slider_refresh_min">Minimum</string>
     <string name="notification_slider_refresh_max">Maksimum</string>
+    <string name="notification_slider_colorspace_vivid">Vivid</string>
+    <string name="notification_slider_colorspace_natural">Alami</string>
+    <string name="notification_slider_colorspace_cinematic">Sinematik</string>
+    <string name="notification_slider_colorspace_brilliant">Cemerlang</string>
     <!-- Display -->
     <string name="display_title">Tampilan</string>
     <string name="dc_mode_title">Peredupan DC</string>
@@ -72,6 +87,13 @@
     <string name="hue_title">Warna</string>
     <string name="value_title">Nilai</string>
     <string name="contrast_title">Kontras</string>
+    <string name="colorspace_title">Ruang warna per aplikasi</string>
+    <string name="colorspace_summary">Konfigurasikan ruang warna berdasarkan per-aplikasi</string>
+    <string name="colorspace_default">Bawaan</string>
+    <string name="colorspace_vivid">Jelas</string>
+    <string name="colorspace_natural">Alami</string>
+    <string name="colorspace_cinematic">Sinematik</string>
+    <string name="colorspace_brilliant">Cemerlang</string>
     <!-- CPU -->
     <string name="cpu_title">CPU</string>
     <string name="power_efficient_workqueue_title">Antrean kerja hemat daya</string>

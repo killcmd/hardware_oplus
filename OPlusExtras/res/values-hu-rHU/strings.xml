@@ -30,7 +30,10 @@
     <string name="notification_slider_for_rotation">Elforgatás</string>
     <string name="notification_slider_for_ringer">Csengés</string>
     <string name="notification_slider_for_notification_ringer">Értesítések és csengés</string>
+    <string name="notification_slider_for_extradim">Extrasötét</string>
+    <string name="notification_slider_for_nightlight">Éjszakai fény</string>
     <string name="notification_slider_for_refresh">Frissítési gyakoriság</string>
+    <string name="notification_slider_for_colorspace">Színtér</string>
     <string name="notification_slider_flashlight_off">Ki</string>
     <string name="notification_slider_flashlight_on">Be</string>
     <string name="notification_slider_flashlight_blink">Villogás</string>
@@ -44,9 +47,21 @@
     <string name="notification_slider_ringer_normal">Normál</string>
     <string name="notification_slider_ringer_vibrate">Rezgés</string>
     <string name="notification_slider_ringer_silent">Néma</string>
+    <string name="notification_slider_extradim_off">Ki</string>
+    <string name="notification_slider_extradim_min">Minimális</string>
+    <string name="notification_slider_extradim_mid">Közepes</string>
+    <string name="notification_slider_extradim_max">Maximális</string>
+    <string name="notification_slider_nightlight_off">Ki</string>
+    <string name="notification_slider_nightlight_min">Minimális</string>
+    <string name="notification_slider_nightlight_mid">Közepes</string>
+    <string name="notification_slider_nightlight_max">Maximális</string>
     <string name="notification_slider_refresh_auto">Automatikus</string>
     <string name="notification_slider_refresh_min">Minimális</string>
     <string name="notification_slider_refresh_max">Maximális</string>
+    <string name="notification_slider_colorspace_vivid">Vivid</string>
+    <string name="notification_slider_colorspace_natural">Természetes</string>
+    <string name="notification_slider_colorspace_cinematic">Moziszerű</string>
+    <string name="notification_slider_colorspace_brilliant">Ragyogó</string>
     <!-- Display -->
     <string name="display_title">Képernyő</string>
     <string name="dc_mode_title">DC-kiegyenlítés</string>
@@ -72,6 +87,13 @@
     <string name="hue_title">Színárnyalat</string>
     <string name="value_title">Érték</string>
     <string name="contrast_title">Kontraszt</string>
+    <string name="colorspace_title">Alkalmazásonkénti színtér</string>
+    <string name="colorspace_summary">Minden alkalmazáshoz külön értéket állithat be</string>
+    <string name="colorspace_default">Alapértelmezett</string>
+    <string name="colorspace_vivid">Vivid</string>
+    <string name="colorspace_natural">Természetes</string>
+    <string name="colorspace_cinematic">Moziszerű</string>
+    <string name="colorspace_brilliant">Ragyogó</string>
     <!-- CPU -->
     <string name="cpu_title">Processzor</string>
     <string name="power_efficient_workqueue_title">Energiahatékony feladatáthelyezés</string>

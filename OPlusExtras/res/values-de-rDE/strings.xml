@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2014-2016 The OmniROM Project
-                   2021-2022 The Evolution X Project
+     Copyright (C) 2021-2022 The Evolution X Project
                    2018-2021 crDroid Android Project
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-        http://www.apache.org/licenses/LICENSE-2.0
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+                   2019 Havoc-OS
+     SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Oplus Extras -->
+    <!-- OPlus Extras -->
     <string name="oplus_extras_title">Geräteextras</string>
     <string name="oplus_extras_summary">Gerätespezifische Einstellungen anpassen</string>
     <string name="oplus_extras_warning_title">Warnung</string>
@@ -39,6 +30,10 @@
     <string name="notification_slider_for_rotation">Drehung</string>
     <string name="notification_slider_for_ringer">Klingelton</string>
     <string name="notification_slider_for_notification_ringer">Benachrichtigung und Klingelton</string>
+    <string name="notification_slider_for_extradim">Zusätzlich dimmen</string>
+    <string name="notification_slider_for_nightlight">Nachtlicht</string>
+    <string name="notification_slider_for_refresh">Aktualisierungsrate</string>
+    <string name="notification_slider_for_colorspace">Farbraum</string>
     <string name="notification_slider_flashlight_off">Aus</string>
     <string name="notification_slider_flashlight_on">Ein</string>
     <string name="notification_slider_flashlight_blink">Blinken</string>
@@ -52,6 +47,21 @@
     <string name="notification_slider_ringer_normal">Normal</string>
     <string name="notification_slider_ringer_vibrate">Vibrieren</string>
     <string name="notification_slider_ringer_silent">Lautlos</string>
+    <string name="notification_slider_extradim_off">Aus</string>
+    <string name="notification_slider_extradim_min">Minimal</string>
+    <string name="notification_slider_extradim_mid">Mittel</string>
+    <string name="notification_slider_extradim_max">Maximum</string>
+    <string name="notification_slider_nightlight_off">Aus</string>
+    <string name="notification_slider_nightlight_min">Minimal</string>
+    <string name="notification_slider_nightlight_mid">Mittel</string>
+    <string name="notification_slider_nightlight_max">Maximum</string>
+    <string name="notification_slider_refresh_auto">Auto</string>
+    <string name="notification_slider_refresh_min">Min</string>
+    <string name="notification_slider_refresh_max">Max</string>
+    <string name="notification_slider_colorspace_vivid">Lebendig</string>
+    <string name="notification_slider_colorspace_natural">Natürlich</string>
+    <string name="notification_slider_colorspace_cinematic">Film</string>
+    <string name="notification_slider_colorspace_brilliant">Brilliant</string>
     <!-- Display -->
     <string name="display_title">Anzeige</string>
     <string name="dc_mode_title">DC-Dimmen</string>
@@ -62,6 +72,11 @@
     <string name="auto_hbm_title">Automatischer Helligkeitsmodus</string>
     <string name="auto_hbm_summary">Beleuchtungsspitzen basierend auf Sonnenlicht aktivieren</string>
     <string name="auto_hbm_threshold_summary">Schwellenwert (lux)</string>
+    <string name="refresh_title">Aktualisierungsrate pro App</string>
+    <string name="refresh_summary">Aktualisierungsrate auf pro-App-Basis konfigurieren</string>
+    <string name="refresh_default">Standard</string>
+    <string name="refresh_standard">60Hz</string>
+    <string name="refresh_extreme">120Hz</string>
     <string name="kcal_settings_title">KCAL</string>
     <string name="kcal_settings_summary">Display über KCAL kalibrieren</string>
     <string name="kcal_settings">Anpassbare Werte</string>
@@ -72,6 +87,24 @@
     <string name="hue_title">Farbton</string>
     <string name="value_title">Wert</string>
     <string name="contrast_title">Kontrast</string>
+    <string name="colorspace_title">Farbraum pro App</string>
+    <string name="colorspace_summary">Farbraum auf pro App-Basis konfigurieren</string>
+    <string name="colorspace_default">Standard</string>
+    <string name="colorspace_vivid">Lebendig</string>
+    <string name="colorspace_natural">Natürlich</string>
+    <string name="colorspace_cinematic">Film</string>
+    <string name="colorspace_brilliant">Brilliant</string>
+    <!-- CPU -->
+    <string name="cpu_title">CPU</string>
+    <string name="power_efficient_workqueue_title">Leistungssparende Warteschlange</string>
+    <string name="power_efficient_workqueue_summary">Sparen Sie Energie durch Umschichtung der Arbeit in einen Kern, der bereits wach ist</string>
+    <string name="touchboost_title">Touchboost</string>
+    <string name="touchboost_summary">Gibt an, ob die CPU-Frequenz bei Touchscreen-Eingabe erhöht werden soll</string>
+    <!-- Filesystem -->
+    <string name="filesystem_title">Dateisystem</string>
+    <string name="fsync_title">FSync</string>
+    <string name="fsync_summary">FSync aus/an</string>
+    <string name="fsync_warning">Die Deaktivierung von FSync kann die Leistung beschleunigen, birgt aber das Risiko eines möglichen Datenverlusts im Falle eines Systemabsturzes.</string>
     <!-- FPS Info -->
     <string name="fps_title">Gemessene FPS</string>
     <string name="fps_info_title">FPS Overlay</string>
@@ -100,6 +133,10 @@
     <string name="fps_info_position_center_center">Zentriert</string>
     <string name="fps_info_position_center_right">Mittig rechts</string>
     <string name="fps_info_text_size_title">Schriftgröße</string>
+    <!-- GPU -->
+    <string name="gpu_title">GPU</string>
+    <string name="adrenoboost_title">Adrenoboost</string>
+    <string name="adrenoboost_summary">Aus, schwach, mittel, aggressiv</string>
     <!-- Doze -->
     <string name="ambient_enable">Ambient-Display anzeigen</string>
     <string name="ambient_display_title">Inaktivitätsdisplay</string>
@@ -128,6 +165,8 @@
     <string name="category_power">Leistung</string>
     <string name="powershare_mode_title">Umgekehrtes kabelloses Aufladen </string>
     <string name="powershare_mode_summary">Aktiviert das umgekehrte kabellose Laden</string>
+    <string name="quiet_mode_title">Stiller Modus</string>
+    <string name="quiet_mode_summary">Aktiviere den leisen Modus für OEM Wireless Ladegerät</string>
     <!-- Touchscreen -->
     <string name="touchscreen_title">Touchscreen</string>
     <string name="touchscreen_gesture_settings_title">Bildschirmgesten</string>
@@ -186,6 +225,8 @@
     <string name="jitter_test_summary">Berechnung des Rendering-Jitters</string>
     <!-- USB -->
     <string name="usb_title">USB</string>
+    <string name="otg_title">USB-OTG</string>
+    <string name="otg_summary">USB-On-the-go-Modus aktivieren</string>
     <string name="usb2_fc_title">USB 2.0 (Schnell laden)</string>
     <string name="usb2_fc_summary">Schnelles Laden von bis zu 900mA im USB 2.0 Modus erzwingen</string>
     <string name="usb2_fc_warning">Beeinträchtigt die Dash-/Warp-Ladung. Nur aktivieren, wenn zutreffend</string>

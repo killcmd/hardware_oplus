@@ -30,7 +30,10 @@
     <string name="notification_slider_for_rotation">Rotação</string>
     <string name="notification_slider_for_ringer">Toque</string>
     <string name="notification_slider_for_notification_ringer">Notificação e toque</string>
+    <string name="notification_slider_for_extradim">Mais escuro</string>
+    <string name="notification_slider_for_nightlight">Modo noturno</string>
     <string name="notification_slider_for_refresh">Taxa de atualização</string>
+    <string name="notification_slider_for_colorspace">Sistema de cor</string>
     <string name="notification_slider_flashlight_off">Desligado</string>
     <string name="notification_slider_flashlight_on">Ligado</string>
     <string name="notification_slider_flashlight_blink">Piscar</string>
@@ -44,9 +47,21 @@
     <string name="notification_slider_ringer_normal">Normal</string>
     <string name="notification_slider_ringer_vibrate">Vibrar</string>
     <string name="notification_slider_ringer_silent">Silencioso</string>
+    <string name="notification_slider_extradim_off">Desativado</string>
+    <string name="notification_slider_extradim_min">Mínimo</string>
+    <string name="notification_slider_extradim_mid">Médio</string>
+    <string name="notification_slider_extradim_max">Máximo</string>
+    <string name="notification_slider_nightlight_off">Desativado</string>
+    <string name="notification_slider_nightlight_min">Mínimo</string>
+    <string name="notification_slider_nightlight_mid">Médio</string>
+    <string name="notification_slider_nightlight_max">Máximo</string>
     <string name="notification_slider_refresh_auto">Automático</string>
     <string name="notification_slider_refresh_min">Mínimo</string>
     <string name="notification_slider_refresh_max">Máximo</string>
+    <string name="notification_slider_colorspace_vivid">Vívido</string>
+    <string name="notification_slider_colorspace_natural">Natural</string>
+    <string name="notification_slider_colorspace_cinematic">Cinematográfico</string>
+    <string name="notification_slider_colorspace_brilliant">Brilhante</string>
     <!-- Display -->
     <string name="display_title">Tela</string>
     <string name="dc_mode_title">Modo anti cintilação</string>
@@ -72,6 +87,13 @@
     <string name="hue_title">Matiz</string>
     <string name="value_title">Valor</string>
     <string name="contrast_title">Contraste</string>
+    <string name="colorspace_title">Sistema de cor por aplicativo</string>
+    <string name="colorspace_summary">Configure o sistema de cor para cada aplicativo individualmente</string>
+    <string name="colorspace_default">Padrão</string>
+    <string name="colorspace_vivid">Vívido</string>
+    <string name="colorspace_natural">Natural</string>
+    <string name="colorspace_cinematic">Cinematográfico</string>
+    <string name="colorspace_brilliant">Brilhante</string>
     <!-- CPU -->
     <string name="cpu_title">CPU</string>
     <string name="power_efficient_workqueue_title">Eficiência energética na fila de trabalho</string>
@@ -144,7 +166,7 @@
     <string name="powershare_mode_title">Compartilhamento de energia sem fio</string>
     <string name="powershare_mode_summary">Ativar carregamento reverso</string>
     <string name="quiet_mode_title">Modo silencioso</string>
-    <string name="quiet_mode_summary">Ativar modo silêncio para o carregador sem fio OEM</string>
+    <string name="quiet_mode_summary">Ativar modo silêncio para o carregador sem fio do fabricante</string>
     <!-- Touchscreen -->
     <string name="touchscreen_title">Gestos avançados</string>
     <string name="touchscreen_gesture_settings_title">Gestos na tela</string>
@@ -204,7 +226,7 @@
     <!-- USB -->
     <string name="usb_title">USB</string>
     <string name="otg_title">USB-OTG</string>
-    <string name="otg_summary">Habilita o modo USB on-the-go</string>
+    <string name="otg_summary">Ativar o modo USB on-the-go</string>
     <string name="usb2_fc_title">Carregamento rápido USB 2.0</string>
     <string name="usb2_fc_summary">Forçar carregamento rápido de até 900mA no modo USB 2.0</string>
     <string name="usb2_fc_warning">Interfere no carregamento dash/warp; habilite apenas quando for necessário</string>
