@@ -30,7 +30,10 @@
     <string name="notification_slider_for_rotation">Rotação</string>
     <string name="notification_slider_for_ringer">Toque</string>
     <string name="notification_slider_for_notification_ringer">Notificação e toque</string>
+    <string name="notification_slider_for_extradim">Mais escuro</string>
+    <string name="notification_slider_for_nightlight">Luz noturna</string>
     <string name="notification_slider_for_refresh">Taxa de atualização</string>
+    <string name="notification_slider_for_colorspace">Sistema de cor</string>
     <string name="notification_slider_flashlight_off">Desligado</string>
     <string name="notification_slider_flashlight_on">Ligado</string>
     <string name="notification_slider_flashlight_blink">Piscar</string>
@@ -44,9 +47,21 @@
     <string name="notification_slider_ringer_normal">Normal</string>
     <string name="notification_slider_ringer_vibrate">Vibração</string>
     <string name="notification_slider_ringer_silent">Silêncio</string>
+    <string name="notification_slider_extradim_off">Desligar</string>
+    <string name="notification_slider_extradim_min">Mín</string>
+    <string name="notification_slider_extradim_mid">Med</string>
+    <string name="notification_slider_extradim_max">Máx</string>
+    <string name="notification_slider_nightlight_off">Desligar</string>
+    <string name="notification_slider_nightlight_min">Mín</string>
+    <string name="notification_slider_nightlight_mid">Méd</string>
+    <string name="notification_slider_nightlight_max">Máx</string>
     <string name="notification_slider_refresh_auto">Auto.</string>
     <string name="notification_slider_refresh_min">Min.</string>
     <string name="notification_slider_refresh_max">Máx.</string>
+    <string name="notification_slider_colorspace_vivid">Vívido</string>
+    <string name="notification_slider_colorspace_natural">Natural</string>
+    <string name="notification_slider_colorspace_cinematic">Cinematográfico</string>
+    <string name="notification_slider_colorspace_brilliant">Brilhante</string>
     <!-- Display -->
     <string name="display_title">Ecrã</string>
     <string name="dc_mode_title">DC-Dimming</string>
@@ -72,6 +87,13 @@
     <string name="hue_title">Tonalidade</string>
     <string name="value_title">Valor</string>
     <string name="contrast_title">Contraste</string>
+    <string name="colorspace_title">Cor por aplicativo</string>
+    <string name="colorspace_summary">Configurar cor por aplicação</string>
+    <string name="colorspace_default">Padrão</string>
+    <string name="colorspace_vivid">Vívido</string>
+    <string name="colorspace_natural">Natural</string>
+    <string name="colorspace_cinematic">Cinematográfico</string>
+    <string name="colorspace_brilliant">Brilhante</string>
     <!-- CPU -->
     <string name="cpu_title">CPU</string>
     <string name="power_efficient_workqueue_title">Eficiência energética da fila de trabalho</string>

@@ -30,7 +30,10 @@
     <string name="notification_slider_for_rotation">Поворот екрану</string>
     <string name="notification_slider_for_ringer">Дзвінок</string>
     <string name="notification_slider_for_notification_ringer">Сповіщення та дзвінок</string>
+    <string name="notification_slider_for_extradim">Додаткове затемнення</string>
+    <string name="notification_slider_for_nightlight">Нічне світло</string>
     <string name="notification_slider_for_refresh">Частота оновлення</string>
+    <string name="notification_slider_for_colorspace">Колірний простір</string>
     <string name="notification_slider_flashlight_off">Вимк.</string>
     <string name="notification_slider_flashlight_on">Увімк.</string>
     <string name="notification_slider_flashlight_blink">Блимати</string>
@@ -44,9 +47,21 @@
     <string name="notification_slider_ringer_normal">Звичайний</string>
     <string name="notification_slider_ringer_vibrate">Вібрація</string>
     <string name="notification_slider_ringer_silent">Без звуку</string>
+    <string name="notification_slider_extradim_off">Вимкнено</string>
+    <string name="notification_slider_extradim_min">Мінімально</string>
+    <string name="notification_slider_extradim_mid">Середній</string>
+    <string name="notification_slider_extradim_max">Максимально</string>
+    <string name="notification_slider_nightlight_off">Вимкнено</string>
+    <string name="notification_slider_nightlight_min">Мінімально</string>
+    <string name="notification_slider_nightlight_mid">Середній</string>
+    <string name="notification_slider_nightlight_max">Максимально</string>
     <string name="notification_slider_refresh_auto">Автоматично</string>
     <string name="notification_slider_refresh_min">Мінімально</string>
     <string name="notification_slider_refresh_max">Максимально</string>
+    <string name="notification_slider_colorspace_vivid">Яскравий</string>
+    <string name="notification_slider_colorspace_natural">Природній</string>
+    <string name="notification_slider_colorspace_cinematic">Кінематографічний</string>
+    <string name="notification_slider_colorspace_brilliant">Блискучий</string>
     <!-- Display -->
     <string name="display_title">Дисплей</string>
     <string name="dc_mode_title">DC Dimming</string>
@@ -72,6 +87,13 @@
     <string name="hue_title">Відтінок</string>
     <string name="value_title">Значення</string>
     <string name="contrast_title">Контрастність</string>
+    <string name="colorspace_title">Колірний простір для кожного додатка</string>
+    <string name="colorspace_summary">Налаштування колірного простору для кожного окремого додатка</string>
+    <string name="colorspace_default">За замовчуванням</string>
+    <string name="colorspace_vivid">Яскравий</string>
+    <string name="colorspace_natural">Природній</string>
+    <string name="colorspace_cinematic">Кінематографічний</string>
+    <string name="colorspace_brilliant">Блискучий</string>
     <!-- CPU -->
     <string name="cpu_title">ЦП</string>
     <string name="power_efficient_workqueue_title">Енергоефективна робоча черга</string>

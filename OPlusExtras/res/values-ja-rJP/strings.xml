@@ -30,7 +30,10 @@
     <string name="notification_slider_for_rotation">回転</string>
     <string name="notification_slider_for_ringer">着信</string>
     <string name="notification_slider_for_notification_ringer">通知と着信</string>
+    <string name="notification_slider_for_extradim">さらに輝度を下げる</string>
+    <string name="notification_slider_for_nightlight">夜間ライト</string>
     <string name="notification_slider_for_refresh">リフレッシュレート</string>
+    <string name="notification_slider_for_colorspace">色空間</string>
     <string name="notification_slider_flashlight_off">OFF</string>
     <string name="notification_slider_flashlight_on">ON</string>
     <string name="notification_slider_flashlight_blink">点滅</string>
@@ -44,9 +47,21 @@
     <string name="notification_slider_ringer_normal">標準</string>
     <string name="notification_slider_ringer_vibrate">振動</string>
     <string name="notification_slider_ringer_silent">サイレント</string>
+    <string name="notification_slider_extradim_off">無効</string>
+    <string name="notification_slider_extradim_min">最小</string>
+    <string name="notification_slider_extradim_mid">中間</string>
+    <string name="notification_slider_extradim_max">最大</string>
+    <string name="notification_slider_nightlight_off">無効</string>
+    <string name="notification_slider_nightlight_min">最小</string>
+    <string name="notification_slider_nightlight_mid">中間</string>
+    <string name="notification_slider_nightlight_max">最大</string>
     <string name="notification_slider_refresh_auto">自動</string>
     <string name="notification_slider_refresh_min">最小</string>
     <string name="notification_slider_refresh_max">最大</string>
+    <string name="notification_slider_colorspace_vivid">ビビッド</string>
+    <string name="notification_slider_colorspace_natural">ナチュラル</string>
+    <string name="notification_slider_colorspace_cinematic">シネマ</string>
+    <string name="notification_slider_colorspace_brilliant">ブリリアント</string>
     <!-- Display -->
     <string name="display_title">ディスプレイ</string>
     <string name="dc_mode_title">DC 調光</string>
@@ -72,6 +87,13 @@
     <string name="hue_title">色相</string>
     <string name="value_title">明度</string>
     <string name="contrast_title">コントラスト</string>
+    <string name="colorspace_title">アプリ毎の色空間</string>
+    <string name="colorspace_summary">アプリごとの色空間を設定する</string>
+    <string name="colorspace_default">既定</string>
+    <string name="colorspace_vivid">ビビッド</string>
+    <string name="colorspace_natural">ナチュラル</string>
+    <string name="colorspace_cinematic">シネマ</string>
+    <string name="colorspace_brilliant">ブリリアント</string>
     <!-- CPU -->
     <string name="cpu_title">CPU</string>
     <string name="power_efficient_workqueue_title">電力効率の高いワークキュー</string>

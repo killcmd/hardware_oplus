@@ -30,7 +30,10 @@
     <string name="notification_slider_for_rotation">旋转</string>
     <string name="notification_slider_for_ringer">响铃</string>
     <string name="notification_slider_for_notification_ringer">通知和响铃</string>
+    <string name="notification_slider_for_extradim">极暗</string>
+    <string name="notification_slider_for_nightlight">夜间模式</string>
     <string name="notification_slider_for_refresh">刷新率</string>
+    <string name="notification_slider_for_colorspace">色彩空间</string>
     <string name="notification_slider_flashlight_off">关闭</string>
     <string name="notification_slider_flashlight_on">开启</string>
     <string name="notification_slider_flashlight_blink">闪烁</string>
@@ -44,9 +47,21 @@
     <string name="notification_slider_ringer_normal">正常</string>
     <string name="notification_slider_ringer_vibrate">振动</string>
     <string name="notification_slider_ringer_silent">静音</string>
+    <string name="notification_slider_extradim_off">关闭</string>
+    <string name="notification_slider_extradim_min">最小</string>
+    <string name="notification_slider_extradim_mid">中</string>
+    <string name="notification_slider_extradim_max">最大</string>
+    <string name="notification_slider_nightlight_off">关闭</string>
+    <string name="notification_slider_nightlight_min">最小</string>
+    <string name="notification_slider_nightlight_mid">中</string>
+    <string name="notification_slider_nightlight_max">最大</string>
     <string name="notification_slider_refresh_auto">自动</string>
     <string name="notification_slider_refresh_min">最小</string>
     <string name="notification_slider_refresh_max">最大</string>
+    <string name="notification_slider_colorspace_vivid">鲜艳</string>
+    <string name="notification_slider_colorspace_natural">自然</string>
+    <string name="notification_slider_colorspace_cinematic">电影</string>
+    <string name="notification_slider_colorspace_brilliant">闪耀</string>
     <!-- Display -->
     <string name="display_title">显示</string>
     <string name="dc_mode_title">DC 调光</string>
@@ -72,6 +87,13 @@
     <string name="hue_title">色调</string>
     <string name="value_title">数值</string>
     <string name="contrast_title">对比度</string>
+    <string name="colorspace_title">应用的颜色空间</string>
+    <string name="colorspace_summary">配置每个应用的刷新率</string>
+    <string name="colorspace_default">默认​​​​​</string>
+    <string name="colorspace_vivid">鲜艳</string>
+    <string name="colorspace_natural">自然</string>
+    <string name="colorspace_cinematic">电影</string>
+    <string name="colorspace_brilliant">闪耀</string>
     <!-- CPU -->
     <string name="cpu_title">CPU</string>
     <string name="power_efficient_workqueue_title">节能工作队列</string>

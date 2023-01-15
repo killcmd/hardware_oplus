@@ -30,7 +30,10 @@
     <string name="notification_slider_for_rotation">Rotazione</string>
     <string name="notification_slider_for_ringer">Suoneria</string>
     <string name="notification_slider_for_notification_ringer">Notifica e suoneria</string>
+    <string name="notification_slider_for_extradim">Attenuazione extra</string>
+    <string name="notification_slider_for_nightlight">Luce notturna</string>
     <string name="notification_slider_for_refresh">Frequenza di aggiornamento</string>
+    <string name="notification_slider_for_colorspace">Spazio colore</string>
     <string name="notification_slider_flashlight_off">Spento</string>
     <string name="notification_slider_flashlight_on">Acceso</string>
     <string name="notification_slider_flashlight_blink">Lampeggia</string>
@@ -44,9 +47,21 @@
     <string name="notification_slider_ringer_normal">Normale</string>
     <string name="notification_slider_ringer_vibrate">Vibrazione</string>
     <string name="notification_slider_ringer_silent">Silenzioso</string>
+    <string name="notification_slider_extradim_off">Disabilitata</string>
+    <string name="notification_slider_extradim_min">Minima</string>
+    <string name="notification_slider_extradim_mid">Media</string>
+    <string name="notification_slider_extradim_max">Massima</string>
+    <string name="notification_slider_nightlight_off">Disabilitata</string>
+    <string name="notification_slider_nightlight_min">Minima</string>
+    <string name="notification_slider_nightlight_mid">Media</string>
+    <string name="notification_slider_nightlight_max">Massima</string>
     <string name="notification_slider_refresh_auto">Automatica</string>
     <string name="notification_slider_refresh_min">Minima</string>
     <string name="notification_slider_refresh_max">Massima</string>
+    <string name="notification_slider_colorspace_vivid">Vivido</string>
+    <string name="notification_slider_colorspace_natural">Naturale</string>
+    <string name="notification_slider_colorspace_cinematic">Cinematografico</string>
+    <string name="notification_slider_colorspace_brilliant">Brillante</string>
     <!-- Display -->
     <string name="display_title">Display</string>
     <string name="dc_mode_title">Modalità anti-sfarfallio</string>
@@ -72,6 +87,13 @@
     <string name="hue_title">Tinta</string>
     <string name="value_title">Valore</string>
     <string name="contrast_title">Contrasto</string>
+    <string name="colorspace_title">Spazio colore per app</string>
+    <string name="colorspace_summary">Configura lo spazio colore in base all\'app</string>
+    <string name="colorspace_default">Predefinito</string>
+    <string name="colorspace_vivid">Vivido</string>
+    <string name="colorspace_natural">Naturale</string>
+    <string name="colorspace_cinematic">Cinematografico</string>
+    <string name="colorspace_brilliant">Brillante</string>
     <!-- CPU -->
     <string name="cpu_title">CPU</string>
     <string name="power_efficient_workqueue_title">Coda di lavoro efficiente</string>
@@ -170,7 +192,7 @@
     <string name="touchscreen_gesture_letter_z_title">Disegna la lettera \"Z\"</string>
     <string name="touchscreen_gesture_action_dialog_title">Azione gesto</string>
     <string name="touchscreen_gesture_action_do_nothing">Non fare nulla</string>
-    <string name="touchscreen_gesture_action_flashlight">Attiva/Disattiva torcia</string>
+    <string name="touchscreen_gesture_action_flashlight">Attiva/disattiva torcia</string>
     <string name="touchscreen_gesture_action_camera">Apri fotocamera</string>
     <string name="touchscreen_gesture_action_browser">Apri browser</string>
     <string name="touchscreen_gesture_action_dialer">Apri telefono</string>

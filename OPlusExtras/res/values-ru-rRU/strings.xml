@@ -30,7 +30,10 @@
     <string name="notification_slider_for_rotation">Поворот экрана</string>
     <string name="notification_slider_for_ringer">Звонок</string>
     <string name="notification_slider_for_notification_ringer">Уведомление и звонок</string>
+    <string name="notification_slider_for_extradim">Дополнительное уменьшение яркости</string>
+    <string name="notification_slider_for_nightlight">Ночной режим</string>
     <string name="notification_slider_for_refresh">Частота обновления</string>
+    <string name="notification_slider_for_colorspace">Цветовое пространство</string>
     <string name="notification_slider_flashlight_off">Выключить</string>
     <string name="notification_slider_flashlight_on">Включить</string>
     <string name="notification_slider_flashlight_blink">Мигать</string>
@@ -44,9 +47,21 @@
     <string name="notification_slider_ringer_normal">Обычный</string>
     <string name="notification_slider_ringer_vibrate">Вибрация</string>
     <string name="notification_slider_ringer_silent">Без звука</string>
+    <string name="notification_slider_extradim_off">Выкл.</string>
+    <string name="notification_slider_extradim_min">Мин.</string>
+    <string name="notification_slider_extradim_mid">Сред.</string>
+    <string name="notification_slider_extradim_max">Макс.</string>
+    <string name="notification_slider_nightlight_off">Выкл.</string>
+    <string name="notification_slider_nightlight_min">Мин.</string>
+    <string name="notification_slider_nightlight_mid">Сред.</string>
+    <string name="notification_slider_nightlight_max">Макс.</string>
     <string name="notification_slider_refresh_auto">Авто</string>
     <string name="notification_slider_refresh_min">Мин.</string>
     <string name="notification_slider_refresh_max">Макс.</string>
+    <string name="notification_slider_colorspace_vivid">Яркий</string>
+    <string name="notification_slider_colorspace_natural">Натуральный</string>
+    <string name="notification_slider_colorspace_cinematic">Кинематографический</string>
+    <string name="notification_slider_colorspace_brilliant">Блестящий</string>
     <!-- Display -->
     <string name="display_title">Дисплей</string>
     <string name="dc_mode_title">DC Dimming</string>
@@ -72,6 +87,13 @@
     <string name="hue_title">Оттенок</string>
     <string name="value_title">Значение</string>
     <string name="contrast_title">Контрастность</string>
+    <string name="colorspace_title">Цветовое пространство для каждого приложения</string>
+    <string name="colorspace_summary">Настройка цветового пространства для каждого приложения</string>
+    <string name="colorspace_default">По умолчанию</string>
+    <string name="colorspace_vivid">Яркий</string>
+    <string name="colorspace_natural">Натуральный</string>
+    <string name="colorspace_cinematic">Кинематографический</string>
+    <string name="colorspace_brilliant">Блестящий</string>
     <!-- CPU -->
     <string name="cpu_title">CPU</string>
     <string name="power_efficient_workqueue_title">Энергоэффективная очередь задач</string>

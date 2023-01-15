@@ -30,7 +30,10 @@
     <string name="notification_slider_for_rotation">Döndürme</string>
     <string name="notification_slider_for_ringer">Zil sesi</string>
     <string name="notification_slider_for_notification_ringer">Bildirim ve zil sesi</string>
+    <string name="notification_slider_for_extradim">Ekstra loş</string>
+    <string name="notification_slider_for_nightlight">Gece Işığı</string>
     <string name="notification_slider_for_refresh">Yenileme hızı</string>
+    <string name="notification_slider_for_colorspace">Renk alanı</string>
     <string name="notification_slider_flashlight_off">Kapalı</string>
     <string name="notification_slider_flashlight_on">Açık</string>
     <string name="notification_slider_flashlight_blink">Yanıp sönme</string>
@@ -44,9 +47,21 @@
     <string name="notification_slider_ringer_normal">Normal</string>
     <string name="notification_slider_ringer_vibrate">Titreşim</string>
     <string name="notification_slider_ringer_silent">Sessiz</string>
+    <string name="notification_slider_extradim_off">Kapalı</string>
+    <string name="notification_slider_extradim_min">Minimum</string>
+    <string name="notification_slider_extradim_mid">Orta</string>
+    <string name="notification_slider_extradim_max">Azami</string>
+    <string name="notification_slider_nightlight_off">Kapalı</string>
+    <string name="notification_slider_nightlight_min">Minimum</string>
+    <string name="notification_slider_nightlight_mid">Orta</string>
+    <string name="notification_slider_nightlight_max">Azami</string>
     <string name="notification_slider_refresh_auto">Otomatik</string>
     <string name="notification_slider_refresh_min">Min</string>
     <string name="notification_slider_refresh_max">Maks</string>
+    <string name="notification_slider_colorspace_vivid">Canlı</string>
+    <string name="notification_slider_colorspace_natural">Doğal</string>
+    <string name="notification_slider_colorspace_cinematic">Sinematik</string>
+    <string name="notification_slider_colorspace_brilliant">Parlak</string>
     <!-- Display -->
     <string name="display_title">Ekran</string>
     <string name="dc_mode_title">DC-Karartma</string>
@@ -72,6 +87,13 @@
     <string name="hue_title">Ton</string>
     <string name="value_title">Değer</string>
     <string name="contrast_title">Kontrast</string>
+    <string name="colorspace_title">Uygulama başına renk uzayı</string>
+    <string name="colorspace_summary">Renk uzayını her bir uygulama ayarla</string>
+    <string name="colorspace_default">Varsayılan</string>
+    <string name="colorspace_vivid">Canlı</string>
+    <string name="colorspace_natural">Doğal</string>
+    <string name="colorspace_cinematic">Sinematik</string>
+    <string name="colorspace_brilliant">Parlak</string>
     <!-- CPU -->
     <string name="cpu_title">İşlemci</string>
     <string name="power_efficient_workqueue_title">İş sırası güç verimliliği</string>
