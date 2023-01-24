@@ -83,6 +83,8 @@
     <string name="kcal_settings_title">Kcal</string>
     <string name="kcal_settings_summary">Calibrate display via Kcal</string>
     <string name="kcal_settings">Adjustable values</string>
+    <string name="max_brightness_title">Maximum brightness</string>
+    <string name="max_brightness_summary">Increase the maximum brightness level</string>
     <string name="red_title">Red</string>
     <string name="green_title">Green</string>
     <string name="blue_title">Blue</string>

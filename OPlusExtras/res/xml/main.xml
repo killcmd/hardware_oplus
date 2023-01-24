@@ -127,6 +127,11 @@
             android:icon="@drawable/ic_info_outline"
             android:summary="@string/hbm_mode_warning" 
             android:persistent="false" />
+
+        <org.evolution.oplus.OPlusExtras.preferences.MaxBrightnessPreference
+            android:key="max_brightness"
+            android:title="@string/max_brightness_title"
+            android:summary="@string/max_brightness_summary" />
     </PreferenceCategory>
 
     <!-- Start of filesystem Category -->

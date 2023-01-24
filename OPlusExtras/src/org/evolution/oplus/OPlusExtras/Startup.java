@@ -36,6 +36,7 @@ public class Startup extends BroadcastReceiver {
         DozeUtils.checkDozeService(context);
         GreenPreference.restore(context);
         HuePreference.restore(context);
+        MaxBrightnessPreference.restore(context);
         OPlusExtras.restoreSliderStates(context);
         RedPreference.restore(context);
         RefreshUtils.startService(context);

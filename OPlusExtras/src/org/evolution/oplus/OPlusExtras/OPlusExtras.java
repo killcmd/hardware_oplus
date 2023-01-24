@@ -68,11 +68,13 @@ public class OPlusExtras extends PreferenceFragment
     public static final String KEY_AUTO_HBM_SWITCH = "auto_hbm";
     public static final String KEY_AUTO_HBM_THRESHOLD = "auto_hbm_threshold";
     public static final String KEY_HBM_INFO = "hbm_info";
+    public static final String KEY_MAX_BRIGHTNESS = "max_brightness";
     private Preference mDozeSettings;
     private static TwoStatePreference mDCModeSwitch;
     private static TwoStatePreference mHBMModeSwitch;
     private static TwoStatePreference mAutoHBMSwitch;
     private Preference mHBMInfo;
+    private MaxBrightnessPreference mMaxBrightness;
 
     public static final String KEY_CATEGORY_CPU = "cpu";
     public static final String KEY_POWER_EFFICIENT_WQ_SWITCH = "power_efficient_workqueue";
@@ -239,6 +241,18 @@ public class OPlusExtras extends PreferenceFragment
             findPreference(KEY_AUTO_HBM_SWITCH).setVisible(false);
             findPreference(KEY_AUTO_HBM_THRESHOLD).setVisible(false);
             findPreference(KEY_HBM_INFO).setVisible(false);
+        }
+
+        // Max Brightness
+        displayCategory = displayCategory | isFeatureSupported(context, R.bool.config_deviceSupportsChangingMaxBrightness);
+        if (isFeatureSupported(context, R.bool.config_deviceSupportsChangingMaxBrightness)) {
+            mMaxBrightness = (MaxBrightnessPreference) findPreference(KEY_MAX_BRIGHTNESS);
+            if (mMaxBrightness != null) {
+                mMaxBrightness.setEnabled(MaxBrightnessPreference.isSupported(this.getContext()));
+            }
+        }
+        else {
+            findPreference(KEY_MAX_BRIGHTNESS).setVisible(false);
         }
 
         if (!displayCategory) {

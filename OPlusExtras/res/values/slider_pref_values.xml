@@ -14,6 +14,14 @@
     <integer name="auto_hbm_threshold_preference_interval">1</integer>
     <string name="auto_hbm_threshold_preference_default">20000</string>
 
+    <!-- Max brightness integers (default, min, max) -->
+    <integer-array name="max_brightness_preference_array">
+        <item>2047</item>
+        <item>2047</item>
+        <item>4095</item>
+    </integer-array>
+    <integer name="max_brightness_preference_interval">200</integer>
+
     <!-- Kcal RED integers (default, min, max) -->
     <integer-array name="kcal_red_preference_array">
         <item>256</item>
